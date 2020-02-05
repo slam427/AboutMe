@@ -12,26 +12,42 @@
 <link rel="stylesheet" type= "text/css" href=style.css>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0"> 
-            <p class="navbar-brand col-1 p-0 bg-info text-light"><p>Steven Lam</p></a>
-        <ul id="navbarRight">
-            <li>
-                <a id="Aboutlink" href="#">About</a>
-            </li>
-            <li>
-                <a id="Portfoliolink" href="#">Portfolio</a>
-            </li>
-            <li>
-                <a id="Contactlink" href="#">Contact</a>
-            </li>
+    <nav class="row navbar navbar-expand-lg navbar-light bg-light container-fluid p-0">
+        <div class="navbar-brand bg-info pl-2 pr-2 ml-5 text-light">
+                <h2>Steven Lam</h2>
+        </div>
+            <ul class="nav col d-flex justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
         </ul>
     </nav>
-    <div class="col-md-4">
-            <h2>
-                About Me
-                <hr>
-            </h2>
-            <p><img src="https://via.placeholder.com/150" class="img-fluid" alt="Responsive image"><img> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minima officiis asperiores, ullam ea voluptatem eos quibusdam at suscipit corrupti vitae adipisci, incidunt numquam laudantium omnis exercitationem! Sint,culpa qui. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, labore provident, necessitatibus commodi non voluptatem repellendus illo quidem quia assumenda laborum. Similique harum temporibus autem et est, nostrum delectus mollitia?</p>
+    <br>
+    <div class="container col-lg-6 border ml-5 mr-8">
+
+
+            <div class="card row">
+                <div class="container card-body">
+                    <h2 class= "col text-info">
+                        About Me
+                        <hr>
+                    </h2>
+                    <div class ="row">
+                    <a href="https://placeholder.com"><img class="col-md-3 float-left clearfix" src=https://via.placeholder.com/150 alt="Responsive image"><img>
+                    <p class = "col-md-9 ">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minima officiis asperiores, ullam ea voluptatem eos quibusdam at suscipit corrupti vitae adipisci, incidunt numquam laudantium omnis exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sunt iste numquam blanditiis voluptatem laudantium cumque debitis saepe nulla eligendi! Sit amet iusto quibusdam, tenetur beatae rerum placeat eum mollitia.
+                    </p>
+                    </div>              
+                </div>
+            </div>
+         
+        </div>
     </div>
 </body>
 </html>
