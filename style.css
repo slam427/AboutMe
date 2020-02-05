@@ -1,3 +1,7 @@
 body {
     background-color:rgba(209, 212, 219, 0.849);
 }
+ 
+main.col-lg{
+    line-height: 2em;
+}
