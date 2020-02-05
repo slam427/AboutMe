@@ -1,1 +1,3 @@
 # slam427.github.io
+MY PORTFOLIO
+I attempted to create a website that is responsive to all display devices using bootstraps framework. The site contains my information and access to my projects/homework for future potential employers. I initially ran into some issues when I tried to override some of the css in the bootstrap framework with copious amounts of my own custom css. This proved to be quite frustrating at times in which certain elements did not change. I then tried to use no custom css but was unable to do so for certain attributes such as background color for the body or line-height for the text. 
