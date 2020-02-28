@@ -47,6 +47,14 @@ li:hover {
     transform: scale(1.2)
 }
 
+#contactHeader {
+    color: black !important;
+}
+#portfolioHeader {
+    color: black !important;
+}
+
+
 
 /* Transition
 To use this property in a transition, you have two steps. In the first step, you specify the transform property as the property you want your transition to listen to:
